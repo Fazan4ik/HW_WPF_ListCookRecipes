@@ -1,0 +1,51 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FlowDocument.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="MyStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </FlowDocument.Resources>
+    
+    <Paragraph Style="{StaticResource header}">
+      З ЧАСНИКОВИМ ПОСМАКОМ. ЗАПЕЧЕНА МОЛОДА КАРТОПЛЯ ВІД ЄВГЕНА КЛОПОТЕНКА
+    </Paragraph>
+	
+    <Paragraph Style="{StaticResource text}">
+        <Figure Width="320" Padding="5" HorizontalAnchor="ColumnLeft">
+            <BlockUIContainer>
+                <Image Source="potatosmak.jpg"/>
+            </BlockUIContainer>
+        </Figure>
+
+        <InlineUIContainer>
+            <StackPanel>
+                <TextBlock Margin="30,15,0,0">600 г картоплі</TextBlock>
+                <TextBlock Margin="30,0">1 головка молодого часнику</TextBlock>
+                <TextBlock Margin="30,0">100 г вершкового масла</TextBlock>
+                <TextBlock Margin="30,0">50 г соняшникової олії</TextBlock>
+                <TextBlock Margin="30,0">сіль і перець за смаком</TextBlock>
+            </StackPanel>
+        </InlineUIContainer>
+    </Paragraph>
+			
+    <Paragraph Style="{StaticResource text}" Margin="0,50">
+      КРОК 1 ->
+      Увімкніть духовку розігріватися до 180 градусів. Промийте картоплю, не очищайте, а просто розріжте кожну навпіл. Викладіть у прямокутну форму для запікання зрізом догори.
+
+      КРОК 2 ->
+      Почистьте часник, розділіть на зубчики і викладіть їх зверху на картоплю.
+
+      КРОК 3 ->
+      Наріжте 100 г вершкового масла кубиком і так само максимально рівномірно розкладіть зверху на картоплю. Полийте все 50 г олії, посоліть і поперчіть.
+
+      КРОК 4 ->
+      Накрийте картоплю фольгою та випікайте 40 хвилин. Потім зніміть фольгу та допечіть до гарної скоринки впродовж іще 10 хвилин. Якщо картопля буде все ще тверда, коли ви пронизуєте її виделкою чи ножем, поверніть у духовку ще на 5-7 хвилин. Подавайте гарячою зі свіжим салатом.
+      
+      </Paragraph>
+
+    <Paragraph Style="{StaticResource finalText}">
+        Готувати – це просто!
+    </Paragraph>
+</FlowDocument>

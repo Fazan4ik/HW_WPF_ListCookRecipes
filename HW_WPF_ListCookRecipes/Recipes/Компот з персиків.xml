@@ -1,0 +1,56 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FlowDocument.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="MyStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </FlowDocument.Resources>
+    
+    <Paragraph Style="{StaticResource header}">
+      КОМПОТ З ПЕРСИКІВ НА ЗИМУ ЗА РЕЦЕПТОМ ЄВГЕНА КЛОПОТЕНКА
+    </Paragraph>
+	
+    <Paragraph Style="{StaticResource text}">
+        <Figure Width="320" Padding="5" HorizontalAnchor="ColumnLeft">
+            <BlockUIContainer>
+                <Image Source="kompot.jpg"/>
+            </BlockUIContainer>
+        </Figure>
+
+        <InlineUIContainer>
+            <StackPanel>
+                <TextBlock Margin="30,15,0,0">На трилітрову банку:</TextBlock>
+                <TextBlock Margin="30,0">1,3 кг персиків</TextBlock>
+                <TextBlock Margin="30,0">250 г цукру</TextBlock>
+                <TextBlock Margin="30,0">1 ч. л. лимонної кислоти</TextBlock>
+                <TextBlock Margin="30,0">1,6 л води</TextBlock>
+            </StackPanel>
+        </InlineUIContainer>
+    </Paragraph>
+			
+    <Paragraph Style="{StaticResource text}" Margin="0,50">
+        КРОК 1 -> 
+        Стерилізуйте банку та металеву кришку. Ретельно помийте 1,3 кг персиків та викладіть їх в банку.
+
+        КРОК 2 -> 
+        Залийте фрукти 1,6 л окропу, накрийте металевою кришкою або якщо маєте, поліетиленовою зливною кришкою та залиште на 10 хвилин.
+
+        КРОК 3 -> 
+        Злийте рідину з банки в каструлю, в якій будете варити сироп. Ставте її на вогонь, додайте 250 г цукру та мішайте, щоб він весь розчинився. Доведіть до кипіння та варіть хвилину.
+
+        КРОК 4 -> 
+        Всипте 1 ч. л. лимонної кислоти, перемішайте до її розчинення, знімайте каструлю з сиропом з вогню та заливайте ним фрукти.
+
+        КРОК 5 -> 
+        Банку з фруктами стерилізуйте. На дно каструлі діаметром мінімум 20 см та висотою 16 см вистеліть рушник, поставте банку, залийте рідину до її половини, накрийте кришкою та стерилізуйте 15 хвилин після закипання.
+
+        КРОК 6 -> 
+        Виймайте банку з каструлі та закривайте кришкою. Залиште остигати за кімнатної температури, а потім зберігайте в прохолодному місці до року.
+    </Paragraph>
+
+    <Paragraph Style="{StaticResource finalText}">
+        Готувати – це просто!
+    </Paragraph>
+</FlowDocument>

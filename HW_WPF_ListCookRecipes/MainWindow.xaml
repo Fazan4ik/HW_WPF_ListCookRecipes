@@ -1,0 +1,20 @@
+﻿<Window x:Class="HW_WPF_ListCookRecipes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW_WPF_ListCookRecipes"
+        mc:Ignorable="d"
+        Title="Recipes food" Height="900" Width="1600" WindowStartupLocation="CenterScreen" >
+ 
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox x:Name="listBox" MouseDoubleClick="ListBox_MouseDoubleClick"/>
+        <FlowDocumentScrollViewer Grid.Column="1" x:Name="scrollDoc"/>
+    </Grid>
+</Window>
